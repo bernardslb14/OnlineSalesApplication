@@ -1,0 +1,42 @@
+INSERT INTO Produto (id, num_versao, titulo, marca, stock, descricao, preco, data, vendedor_pessoa_id, produto_id, produto_num_versao)
+VALUES (1, 1, 'Portátil HP 240 G8', 'HP', 10, 'Incorpora tecnologia poderosa e um chassis aperfeiçoado e é fácil de transportar.', 538, CURRENT_TIMESTAMP(0), 3, 1, 1);
+
+INSERT INTO Produto (id, num_versao, titulo, marca, stock, descricao, preco, data, vendedor_pessoa_id, produto_id, produto_num_versao)
+VALUES (2, 1, 'TV LG OLED65A16LA', 'LG', 1, 'A tecnologia do painel OLED faz toda a diferença para a experiência de visualização.', 1136, CURRENT_TIMESTAMP(0), 4, 2, 1);
+
+INSERT INTO Produto (id, num_versao, titulo, marca, stock, descricao, preco, data, vendedor_pessoa_id, produto_id, produto_num_versao)
+VALUES (3, 1, 'SAMSUNG Galaxy A22 5G','SAMSUNG', 2, 'De uma experiência de jogo e streaming super fluída a partilhas e downloads super rápidos.', 210, CURRENT_TIMESTAMP(0), 3, 3, 1);
+
+
+select * from pessoa;
+select * from comprador;
+select * from vendedor;
+select * from administrador;
+
+select * from produto;
+select * from encomenda;
+select * from quantidade;
+
+
+select * from notificacao;
+select * from notificacao_encomenda;
+select * from notificacao_pessoa;
+
+
+select * from rating;
+
+
+
+INSERT INTO encomenda (data, total, comprador_pessoa_id) VALUES('2022-02-27 10:10:30', 1750.25, 1);
+INSERT INTO encomenda (data, total, comprador_pessoa_id) VALUES('2021-12-05 13:12:11', 999, 5);
+
+
+SELECT extract(month from data), count(*), sum(total)
+FROM encomenda
+WHERE data > CURRENT_DATE - INTERVAL '12 months'
+GROUP BY extract(month from data), extract(year from data)
+ORDER BY extract(year from data) asc, extract(month from data) asc
+
+SELECT id
+FROM encomenda
+WHERE extract(month from data) = 5
