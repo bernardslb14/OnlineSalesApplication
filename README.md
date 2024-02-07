@@ -1,4 +1,4 @@
-# OnlineSalesApplication
+# OnlineSalesPlatform
 
 **Collaborators:** João Leite & Tiago Carriço
 
@@ -6,7 +6,7 @@
 <br/>
 ㅤ
 
-**Project Title:** Online Sales Application
+**Project Title:** Online Sales Platform
 
 **Brief Description:** 
 - A platform that is dedicated to providing a diverse range of electronic products, including computers, televisions, and smartphones;
