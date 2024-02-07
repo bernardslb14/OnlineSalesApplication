@@ -9,9 +9,9 @@
 **Project Title:** Online Sales Platform
 
 **Brief Description:** 
-- A platform that is dedicated to providing a diverse range of electronic products, including computers, televisions, and smartphones;
+- A platform designed to enable transactions on electronic products, including computers, televisions, and smartphones;
 - There are three distinct categories of users: administrators (who have moderation privileges), sellers (companies that are selling products) and consumers (individuals who can actually purchase the products);
-- Some features have been established, including a product version history, a notification system, and also a rating system that allows consumers to express their opinions.
+- Some relevant features: product version history (when there is an update to a product's characteristic); notification system (to notify the involved entities when a transaction has been completed); rating system (it allows the consumers to express their opinions about products).
 <br/>
 
 
