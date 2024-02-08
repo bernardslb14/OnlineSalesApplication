@@ -11,7 +11,7 @@
 **Brief Description:** 
 - A platform designed to enable transactions on electronic products, including computers, TVs and smartphones;
 - Three distinct types of users: administrators (who have moderation privileges), sellers (companies that are selling products) and consumers (individuals who can actually purchase the products);
-- Some relevant features: product version history (when there is an update to a product's characteristic); notification system (to notify the involved entities when a transaction has been completed); rating system (it allows the consumers to express their opinions about products).
+- Some additional features: product version records (to preserve archives of information related to each product); notification system (to notify the involved entities when an action has been completed); feedback section (it allows the consumers to express their opinions/ratings about products).
 <br/>
 
 
