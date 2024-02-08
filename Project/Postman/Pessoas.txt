@@ -1,0 +1,20 @@
+Pessoa:
+	Comprador:
+		{"username": "Bernardo", "email": "bernas00@gmail.com", "password": "abc123", "contacto": "918237564",
+			"cc": "30035465", "morada": "Rua do Brasil, Coimbra", "nif": "237123523"}
+	
+		{"username": "Afonso", "email": "fns@gmail.com", "password": "qwer", "contacto": "961524398",
+			"cc": "30098757", "morada": "Rua Carlos Seixas, Coimbra", "nif": "235546712"}
+
+
+	Vendedor:
+		{"username": "Beatriz", "email": "bea@gmail.com", "password": "zirtaeb", "contacto": "964657129",
+			"empresa": "SAMSUNG", "morada": "Rua do Comércio, Lisboa", "nif": "227375645"}
+
+		{"username": "António", "email": "to@gmail.com", "password": "aeiou", "contacto": "919346543",
+			"empresa": "Apple", "morada": "Rua das Flores, Porto", "nif": "212845243"}
+
+
+	Administrador:
+		{"username": "José", "email": "ze@gmail.com", "password": "asdasd", "contacto": "912341287",
+			"area": "Contabilidade"}

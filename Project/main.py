@@ -1,10 +1,13 @@
-import ast
-
-import psycopg2, time
-from flask import jsonify, request, Flask
-import hmac, hashlib, base64, json  # token
-from dotenv import load_dotenv
+import base64  # token
+import hashlib
+import hmac
+import json
 import os
+
+import psycopg2
+import time
+from dotenv import load_dotenv
+from flask import jsonify, request, Flask
 
 app = Flask(__name__)
 

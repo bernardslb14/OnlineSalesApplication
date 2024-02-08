@@ -1,0 +1,6 @@
+Rating:
+	{"rating": 5, "comment": "Muito bom"}
+
+	{"rating": 4, "comment": "Bom, mas podia ser melhor"}
+
+	{"rating": 3, "comment": "Não parece muito rentável a longo prazo"}

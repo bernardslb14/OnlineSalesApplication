@@ -1,0 +1,14 @@
+Produto:
+	Computador:
+		{"titulo": "Portátil HP 240 G8", "marca": "HP", "stock": "10", "descricao": "Incorpora tecnologia poderosa e um chassis aperfeiçoado e é fácil de transportar.", "preco": "538", 
+			"processador": "Intel Core i3-1005G1", "sistema_operativo": "Windows 10 Home", "armazenamento": "256 GB", "camara": "T"}
+
+
+	Televisor:
+		{"titulo": "TV LG OLED65A16LA", "marca": "LG", "stock": "1", "descricao": "A tecnologia do painel OLED faz toda a diferença para a experiência de visualização.", "preco": "1136",
+			"comprimento": "891", "largura": "1449", "peso": "24", "resolucao": "4K Ultra HD"}
+
+
+	Smartphone:
+		{"titulo": "SAMSUNG Galaxy A22 5G", "marca": "SAMSUNG", "stock": "2", "descricao": "De uma experiência de jogo e streaming super fluída a partilhas e downloads super rápidos.", "preco": "210",
+			"modelo": "Galaxy A22", "cor":"Cinzento"}
