@@ -20,7 +20,7 @@
 **Concepts:**
 - Entity-Relantionship Model;
 - Relational Database;
-- DBMS (PostegreSQL);
+- DBMS (PostgreSQL);
 - SQL;
 - Transactions;
 - Concurrency Control;
